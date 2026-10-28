@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#071b2d" id="theme-color">
+    <meta name="description" content="" id="meta-description">
+    <title>Campaign | Unlimited Internet</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar" aria-label="Campaign brand">
+        <a class="brand" href="/" aria-label="Go to campaign home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="29" height="29" viewBox="0 0 32 32" fill="none">
+              <path d="M4 11.5C10.8 5.7 21.2 5.7 28 11.5M8.5 16C12.8 12.4 19.2 12.4 23.5 16M13 20.5C14.8 19 17.2 19 19 20.5" stroke="currentColor" stroke-width="2.7" stroke-linecap="round"/>
+              <circle cx="16" cy="25" r="2" fill="currentColor"/>
+            </svg>
+          </span>
+          <span>
+            <strong class="brand-name" data-content="brandName"></strong>
+            <small class="brand-by" data-content="brandBy"></small>
+          </span>
+        </a>
+        <span class="campaign-label" data-content="campaignLabel"></span>
+      </header>
+
+      <main>
+        <section class="copy">
+          <p class="eyebrow" data-content="eyebrow"></p>
+          <h1 data-content="headline"></h1>
+          <div class="offer" data-content="offer"></div>
+          <p class="intro" data-content="intro"></p>
+          <div class="benefits" aria-label="Campaign benefits" data-benefits></div>
+          <div class="actions">
+            <a class="button button-primary" data-cta href="#" target="_blank" rel="noopener"></a>
+            <a class="button button-secondary" data-secondary-cta href="#details"></a>
+          </div>
+        </section>
+
+        <section class="visual" aria-label="Campaign highlight">
+          <div class="orbit" aria-hidden="true"></div>
+          <div class="signal-card">
+            <div class="signal-icon" aria-hidden="true">
+              <svg width="66" height="66" viewBox="0 0 64 64" fill="none">
+                <path d="M7 23C20.8 11.1 43.2 11.1 57 23M15 32C24.6 23.7 39.4 23.7 49 32M23 41C28.2 36.5 35.8 36.5 41 41" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="32" cy="50" r="3.5" fill="currentColor"/>
+              </svg>
+            </div>
+            <strong class="highlight" data-content="highlight"></strong>
+            <span class="highlight-caption" data-content="highlightCaption"></span>
+            <span class="signal-divider"></span>
+            <span class="card-note" data-content="cardNote"></span>
+          </div>
+          <div class="float-tag">
+            <span aria-hidden="true">✓</span>
+            <span data-content="floatTag"></span>
+          </div>
+        </section>
+      </main>
+
+      <section class="details" id="details">
+        <div>
+          <p class="eyebrow">Campaign details</p>
+          <h2 data-content="detailsTitle"></h2>
+        </div>
+        <p data-content="detailsText"></p>
+      </section>
+
+      <footer>
+        <span data-content="footerNote"></span>
+        <span class="footer-slogan" data-content="footerSlogan"></span>
+      </footer>
+    </div>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
